@@ -1,0 +1,111 @@
+body {
+  margin: 0 auto;
+  padding: 0 auto;
+  scroll-behavior: smooth;
+  background: #f1f7fc;
+}
+
+.navbar {
+  font-weight: bold;
+  color: rgb(80,94,108);
+  background: #f1f7fc;
+  border-bottom: 1px solid #7ca5c7;;
+}
+
+#memes {
+  max-width: 420px;
+  width: 90%;
+  margin: 50px auto;
+  padding: 20px;
+}
+
+.meme {
+  /* max-width: 420px; */
+  padding: 20px;
+  /* text-align: center; */
+  margin: 20px 0;
+  background-color: #ffffff;
+  border-radius: 4px;
+  color: #505e6c;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+span {
+  font-size: 1em;
+  font-weight: bold;
+  /* margin-bottom: 5px; */
+}
+
+.meme-content {
+  padding-left: 10px;
+}
+
+p {
+  font-size: 0.9em;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+img {
+  border-radius: 10px;
+  font-size: 0.9em;
+  width: 100%;
+}
+
+.form-control {
+  background: #fff;
+  border-radius: 2px;
+  box-shadow: 1px 1px 1px rgba(0,0,0,0.05);
+  outline: none;
+  color: inherit;
+  padding-left: 12px;
+  height: 42px;
+}
+
+.form-control:focus {
+  border: 1px solid #b2b2b2;
+}
+
+.editbtn {
+  float: right;
+  padding: 0px;
+  border: none;
+  /* height: 25px;
+  width: 25px; */
+}
+
+.edit-icon {
+  /* width: 100%; */
+  padding: 0px;
+  height: 25px;
+  width: 25px; 
+}
+
+#cancel-edit {
+  margin-left: 20px;
+  background: red !important;
+}
+
+
+.btn {
+  padding: 16px 32px;
+  border: none;
+  background: none;
+  box-shadow: none;
+  text-shadow: none;
+  opacity: 0.8;
+  outline: none !important;
+}
+
+.btn-primary {
+  background-color: #055ada !important;
+  margin-top: 15px;
+  color: #fff;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.btn:active {
+  transform: translateY(1px);
+}

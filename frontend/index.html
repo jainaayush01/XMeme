@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no"/>
+        <title>Untitled</title>
+        <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="assets/css/styles.css" />
+
+    </head>
+
+    <body>
+
+        <nav class="navbar fixed-top navbar-light navbar-expand-md">
+            <div class="container">
+                <a class="navbar-brand" href="#">X-Meme</a>
+                <button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navcol-1">
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item"><a class="nav-link active" href="#">Post Meme</a></li>
+                        <li class="nav-item"><a id="watchmemes" class="nav-link" href="./memes.html">View Memes</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="form-container">
+            <form method="post" action="/" onsubmit="return post();">
+                <h2 class="text-center">X-Meme</h2>
+                <div class="form-group">
+                    <label for="name">Name <span style="color: red">*</span></label>
+                    <input id="name" class="form-control" type="text" name="name" maxlength="255" placeholder="Enter full name" required/>
+                    <span id="error-name"></span>
+                </div>
+                <div class="form-group">
+                    <label>Caption <span style="color: red">*</span></label>
+                    <input id="caption" class="form-control" type="text" name="caption" maxlength="255" placeholder="Be creative with the caption!" required/>
+                    <span id="error-caption"></span>
+                </div>
+                <div class="form-group">
+                    <label>URL <span style="color: red">*</span></label>
+                    <input id="url" class="form-control" type="url" name="url" maxlength="500" placeholder="Enter URL of your meme" required=""/>
+                    <span id="error-url"></span>
+                </div>
+                <div class="form-group" style="text-align: center">
+                    <button id="post-meme" class="btn btn-primary submit" onclick="post(event)" type="submit">SUBMIT</button>
+                </div>
+                <span id="error-post"></span>
+            </form>
+        </div>
+
+        <script src="assets/bootstrap/js/jquery.min.js"></script>
+        <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+        <script src="./assets/js/helper.js"></script>
+        <script src="./assets/js/methods/postMeme.js"></script>
+        <script src="assets/js/index.js"></script>
+
+    </body>
+</html>

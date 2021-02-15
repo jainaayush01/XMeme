@@ -1,0 +1,4 @@
+.vscode/
+frontend/.vscode/
+backend/.vscode/
+backend/node_modules

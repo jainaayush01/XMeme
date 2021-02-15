@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="assets/css/memes.css">
+        <title>Meme Stream</title>
+
+    </head>
+
+    <body>
+
+        <nav class="navbar fixed-top navbar-light navbar-expand-md">
+            <div class="container">
+                <a class="navbar-brand" href="#">X-Meme</a>
+                <button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navcol-1">
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item"><a class="nav-link " href="./index.html">Post Meme</a></li>
+                        <li class="nav-item"><a id="watchmemes" class="nav-link active" href="#">View Memes</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div id="memes">
+            
+        </div>
+
+        <script src="assets/bootstrap/js/jquery.min.js"></script>
+        <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+        <script src="./assets/js/helper.js"></script>
+        <script src="./assets/js/methods/getMeme.js"></script>
+        <script src="./assets/js/methods/getMemes.js"></script>
+        <script src="./assets/js/methods/editMeme.js"></script>
+        <script src="./assets/js/methods/patchMeme.js"></script>
+        <script src="./assets/js/memes.js"></script>
+
+    </body>
+
+</html>
