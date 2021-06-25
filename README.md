@@ -18,7 +18,7 @@
 
 ## Deployment:  
 
-[Frontend](https://jainaayush01.github.io/XMeme_frontend/)
+[Frontend](https://x-meme.vercel.app/)
 
 [Backend](https://mymemestream.herokuapp.com/)
 
