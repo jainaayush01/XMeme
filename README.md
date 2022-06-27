@@ -22,7 +22,7 @@
 
 [Backend](https://mymemestream.herokuapp.com/)
 
-[Swagger-API-documentation](https://mymemestream.herokuapp.com/swagger-ui)
+[Swagger-API-documentation](https://mymemestream.herokuapp.com/api-docs/)
 
 NOTE: Swaggger API Documentation is available on same port as backend server.
 
